@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.813 sec <<< FAILURE!
+addUser(com.course.cases.AddUserTest)  Time elapsed: 10.057 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.course.cases.AddUserTest.addUser(AddUserTest.java:34)
+
+deleteUser(com.course.cases.UpdateUserInfoTest)  Time elapsed: 30.045 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:423)
+	at org.testng.Assert.assertNotNull(Assert.java:408)
+	at com.course.cases.UpdateUserInfoTest.deleteUser(UpdateUserInfoTest.java:49)
+
